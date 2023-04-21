@@ -8,7 +8,7 @@ if(
     exit();
 }
 
-include_once "baseDeDatos.php";
+include_once "base_de_datos.php";
 $id = $_POST["id"];
 $nombre = $_POST["nombre"];
 $edad = $_POST["edad"];

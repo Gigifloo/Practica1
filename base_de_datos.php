@@ -10,5 +10,5 @@ try {
     $base_de_datos = new PDO("pgsql:host=$rutaServidor;port=$puerto;dbname=$nombreBaseDeDatos", $usuario, $contraseña);
     $base_de_datos->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    echo 'Ocurrio un error en la base de patos: ' . $e->getMessage();
+    echo 'Ocurrio un error en la base de datos: ' . $e->getMessage();
 };
