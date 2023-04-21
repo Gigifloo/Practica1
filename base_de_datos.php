@@ -1,11 +1,11 @@
 <?php
 
 
-$contraseña = "6IJHJ6tMCDruyFG1ohU1";
+$contraseña = "UjbwZB6weCi2WQFkq74z";
 $usuario = "postgres";
 $nombreBaseDeDatos = "railway";
-$rutaServidor = "containers-us-west-147.railway.app";
-$puerto = "6102";
+$rutaServidor = "containers-us-west-102.railway.app";
+$puerto = "5466";
 try {
     $base_de_datos = new PDO("pgsql:host=$rutaServidor;port=$puerto;dbname=$nombreBaseDeDatos", $usuario, $contraseña);
     $base_de_datos->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
